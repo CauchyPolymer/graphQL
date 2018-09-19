@@ -4,5 +4,17 @@
   "description": "Movie API with graphql",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/CauchyPolymer/graphQL"
+  "repository": "https://github.com/CauchyPolymer/graphQL",
+  "dependencies": {
+    "graphql-yoga": "^1.16.2",
+    "node-fetch": "^2.2.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
